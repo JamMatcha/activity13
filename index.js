@@ -70,11 +70,12 @@ console.log("num4: " + num4);
 
 let average = getAverage(num1, num2, num3, num4);
 console.log("average is: " + average);
-console.log("average is (rounded off): " + Math.round(average));
+average = Math.round(average);
+console.log("average is (rounded off): " + average);
 
 
 //7. if  (avg<=74)
-if(average<=74){
+if(average<=74){		
 	console.log("Hello, student, your average is " + average + ". The letter equivalent is F");
 }
 //8. else if (avg >= 75 && avg <= 79)
