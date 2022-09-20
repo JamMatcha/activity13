@@ -32,7 +32,7 @@ console.log("password is: " + password);
 role = loginFunction(prompt("Enter your role:  ").toLowerCase());
 console.log("role is: " + role);
 
-//5. check user's rile
+//5. check user's role
 switch(role){
 	case 'admin':
 		alert("Welcome back to the class portal, admin!");
